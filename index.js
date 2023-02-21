@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/api/auth',require('./routes/auth'))
 app.use('/api/notes',require('./routes/notes'))
 app.get('/',(req,res)=>{
-  res.send("Hi sofiyan here")
+  res.send("Hello sofiyan here")
 })
 
 if(process.env.NODE_ENV=='production'){
